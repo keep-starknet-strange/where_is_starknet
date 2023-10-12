@@ -1,0 +1,32 @@
+name: Starknet is missing
+about: Add a place where Starknet should be referenced
+title: "[Add Starknet to]: "
+labels: ["triage", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report!
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: Where is Starknet missing?
+      placeholder: ex. ethereum.org
+    validations:
+      required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Any additional information?
+      description: Feel free to add any additional information that you think might be helpful.
+    validations:
+      required: false
+  - type: input
+    id: exact-url
+    attributes:
+      label: Exact url of the page
+      description: What is the exact url of the page where Starknet is missing?
+      placeholder: ex. https://ethereum.org/en/layer-2/
+    validations:
+      required: true
