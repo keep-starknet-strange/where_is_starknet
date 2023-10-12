@@ -1,5 +1,5 @@
 name: Starknet is missing
-about: Add a place where Starknet should be referenced
+description: Add a place where Starknet should be referenced
 title: "[Add Starknet to]: "
 labels: ["triage", "help wanted"]
 body:
