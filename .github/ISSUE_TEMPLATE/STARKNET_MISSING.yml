@@ -15,13 +15,6 @@ body:
       placeholder: ex. ethereum.org
     validations:
       required: true
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Any additional information?
-      description: Feel free to add any additional information that you think might be helpful.
-    validations:
-      required: false
   - type: input
     id: exact-url
     attributes:
@@ -30,3 +23,10 @@ body:
       placeholder: ex. https://ethereum.org/en/layer-2/
     validations:
       required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Any additional information?
+      description: Feel free to add any additional information that you think might be helpful.
+    validations:
+      required: false
